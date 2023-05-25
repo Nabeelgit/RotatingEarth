@@ -3,7 +3,7 @@ import './style.css';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 
 const scene = new THREE.Scene();
-const texture = new THREE.TextureLoader().load('./earth.jpg')
+const texture = new THREE.TextureLoader().load('/earth.jpg')
 const geometry = new THREE.SphereGeometry(3, 64, 64);
 const material  = new THREE.MeshPhongMaterial();
 material.map = texture
